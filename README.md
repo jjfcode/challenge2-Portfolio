@@ -59,11 +59,11 @@ Deployment:
 
 **Repo**
 
-
+[Github Repo](https://github.com/jjfcode/challenge2-Portfolio)
 
 **Link of the web Page:**
 
-
+[Github Page](https://jjfcode.github.io/challenge2-Portfolio/)
 
 ## Credits
 
