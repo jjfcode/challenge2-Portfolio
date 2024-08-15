@@ -1,0 +1,122 @@
+:root {
+    --text: #fff;
+    --dark: #33393f;
+    --background: #f7f7f7;
+    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 10vh;
+    background: var(--dark);
+}
+
+header h1 {
+    flex: 1 0 50%;
+    padding-left: 1%;
+    color: var(--text);
+}
+
+header nav {
+    flex: 1 0 50%;
+    display:flex;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+header li {
+    list-style: none;
+    padding-right: 10%;  
+}
+
+header a {
+    color: var(--text);
+}
+
+main,footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    border-right: 2px solid black;
+    flex: 1 0 15%;
+    display: flex;
+    justify-content: end;
+    padding: 1% 2%;
+}
+
+aside h1 {
+    font-family: var(--font);
+}
+
+section{
+    flex: 1 0 80%;
+    padding: 1% 2%;
+    font-family: var(--font);
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a {
+    font-family: var(--font);
+}
+
+#big-pic img {
+    width: 100%;
+}
+
+#hero {
+    background: url(../images/cosmossound.jpg);
+    background-size:cover;
+    height: 55vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 5%;
+}
+
+#hero h3 {
+    font-family: var(--font);
+    color: var(--background);
+    text-shadow: 2px 2px var(--dark);
+    font-size: 35px;
+    
+}
+
+#small-pics{
+    display: flex;
+     flex-wrap: wrap;
+}
+
+#small-pics section{
+    flex: 1 0 45%;
+}
+
+#small-pics img{
+    width: 100%;
+}
+
