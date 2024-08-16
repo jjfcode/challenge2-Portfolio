@@ -1,3 +1,4 @@
+/* Variable */
 :root {
     --text: #fff;
     --dark: #33393f;
@@ -5,6 +6,7 @@
     --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Elemets Selectors */
 * {
     margin: 0;
     padding: 0;
@@ -63,7 +65,7 @@ aside h1 {
     font-family: var(--font);
 }
 
-section{
+section {
     flex: 1 0 80%;
     padding: 1% 2%;
     font-family: var(--font);
@@ -83,10 +85,24 @@ footer a {
     font-family: var(--font);
 }
 
+/* Class Selectors */
+.img-2 {
+    height: 100%;
+}
+
+.img-3 {
+    height: 60%;
+}
+
+.img-4 {
+    height: 60%;
+}
+
 #big-pic img {
     width: 100%;
 }
 
+/* ID Selectors */
 #hero {
     background: url(../images/cosmossound.jpg);
     background-size:cover;
@@ -107,16 +123,15 @@ footer a {
     
 }
 
-#small-pics{
+#small-pics {
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
-#small-pics section{
+#small-pics section {
     flex: 1 0 45%;
 }
 
-#small-pics img{
+#small-pics img {
     width: 100%;
 }
-
