@@ -55,7 +55,7 @@ Deployment:
 
 
 
-![alt text](./Assets/images/Readme-Screenshot.png)
+![alt text](./assets/images/Readme-Screenshot.png)
 
 **Repo**
 
