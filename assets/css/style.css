@@ -17,12 +17,12 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 10vh;
+    height: 5vh;
     background: var(--dark);
 }
 
 header h1 {
-    flex: 1 0 50%;
+    flex: 1 0 45%;
     padding-left: 1%;
     color: var(--text);
 }
@@ -86,6 +86,15 @@ footer a {
 }
 
 /* Class Selectors */
+.avatar {
+    width: 35px; /* Adjust size as needed */
+    height: 35px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes it a circle */
+    margin-left: 5px;
+    vertical-align: middle; /* Aligns the avatar with the text */
+    display: inline-block; /* Ensures it stays inline with the heading */
+}
+
 .img-2 {
     height: 100%;
 }
