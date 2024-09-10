@@ -87,12 +87,12 @@ footer a {
 
 /* Class Selectors */
 .avatar {
-    width: 35px; /* Adjust size as needed */
-    height: 35px; /* Adjust size as needed */
-    border-radius: 50%; /* Makes it a circle */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
     margin-left: 5px;
-    vertical-align: middle; /* Aligns the avatar with the text */
-    display: inline-block; /* Ensures it stays inline with the heading */
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .img-2 {
